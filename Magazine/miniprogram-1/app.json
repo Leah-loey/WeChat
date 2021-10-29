@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/ranking/ranking",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "嘉人POP",
+    
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/bar/home-old1.png",
+        "selectedIconPath": "/images/bar/home-new.png"
+      },
+      {
+        "pagePath": "pages/ranking/ranking",
+        "text": "全部",
+        "iconPath": "/images/bar/ranking-old1.png",
+        "selectedIconPath": "/images/bar/ranking-new.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "关于",
+        "iconPath": "/images/bar/my-old1.png",
+        "selectedIconPath": "/images/bar/my-new.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

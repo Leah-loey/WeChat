@@ -1,0 +1,4 @@
+/**app.wxss**/
+.container {
+  background: rgba(95, 89, 89, 0.664)
+} 

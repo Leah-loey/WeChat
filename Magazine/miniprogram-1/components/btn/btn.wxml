@@ -1,0 +1,12 @@
+<!--components/btn/btn.wxml-->
+<view class="btnBox">
+  <view bindtap="toTopFn">
+    <text class="iconfont icon1"></text>
+  </view>
+  <view bindtap="callFn">
+    <text class="iconfont icon2"></text>
+  </view>
+  <view bindtap="ToMap">
+    <text class="iconfont icon3"></text>
+  </view>
+</view>

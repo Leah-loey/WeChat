@@ -1,0 +1,15 @@
+<!--pages/hotPro/horPro.wxml-->
+<view class="contaie">
+  <view class="block" wx:for="{{Allarry}}" wx:key="*this" wx:for-index="idx1" wx:for-item="it1">
+    <view class="blockTop">
+      <view class="line same"></view>
+      <view class="title same">{{it1.arryTitle}}</view>
+    </view>
+    <view class="down">
+      <view wx:for="{{it1.arry1}}" wx:key="*this" wx:for-index="idx" wx:for-item="it">
+        <image src="{{it.proImg}}"></image>
+        <text>{{it.proText}}{{idx}}</text>
+      </view>
+    </view>
+  </view>
+</view>
